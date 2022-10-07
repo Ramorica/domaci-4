@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mockup</title>
+</head>
+<style>
+  * {box-sizing:border-box;
+  }
+  h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  font-weight: lighter;
+  color:#f7f7f2;
+  background-color:#222725;
+  margin:0;
+  padding: 30px;
+  text-align: center;
+  }
+  h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 27px;
+  color:#121113;
+  background-color:#e4e6c3;
+  margin:0;
+  text-align: center;
+  font-weight: lighter;
+  padding: 12px;
+  }
+  span {
+  color: #899878;
+  font-style: italic;
+  }
+  p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: #121113;
+  margin-left: 130px;
+  margin-bottom: 200px;
+  margin-right: 130px;
+  text-align: justify;
+  }
+  h3{
+  top: 200px;
+  color: #121113;
+  bottom: 150px;
+  margin-left: 150px;
+  font-size: 32px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  h4 {
+  color: #121113;
+  text-align: right;
+  margin-left: 600px;
+  margin-top: 100px;
+  margin-right: 130px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 32px;
+  }
+
+  label {
+  margin-left: 110px;
+  margin-bottom: 30px;
+  text-align: left;
+  padding: 20px;
+  }
+  footer {
+  margin-top:130px;
+  margin-bottom:130px;
+  color:#121113;
+  background-color: #e4e6c3;
+  }
+
+  #Name, #Last-name, #Mail, #Subject {
+  background-color:#f7f7f2;
+  margin-left: 130px;
+  padding: 15px;
+  margin: 10px 10px 20px 130px;
+  text-align: left;
+  border-radius: 7px;
+  width: 20%;
+  border: 0.3px solid #899878;
+  }
+  #button {
+  background-color:#222725;
+  color: #f7f7f2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-size: 24px;
+  margin-left: 130px;
+  padding-inline: 35px;
+  padding: 18px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 30px;
+  text-align: center;
+  width: 10%;
+  border:none
+  }
+  .container {
+  position: relative;
+  }
+  .pastries {
+  position: absolute;
+  font-size: 40px;
+  color:#222725;
+  top: 250px;
+  margin:auto;
+  left: 230px;
+  right: 20px;
+  font-weight: 45px;
+  }
+  .high-quality {
+  color:#f7f7f2;
+  }
+  .beginnings {
+  color:#899878;
+  font-weight: lighter;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  }
+  .leaders {
+  color:#899878;
+  font-weight: bold;
+  padding: 15px;
+  }
+  .image-description {
+  color: #121113;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .fleur {
+  margin-left: 200px;
+  margin-right: 200px;
+  }
+  .mail {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: #121113;
+  margin-top: 80px;
+  text-align: left;
+  padding: 10px;
+  }
+  .copyright {
+  text-align: center;
+  padding: 100px;
+  }
+</style>
+<body>
+    <h1>
+       <span>Golden Grain</span> Food Company
+    </h1>
+    <h2>
+       <span>Fresh</span> ingredients, combined with <span>love</span>
+    </h2>
+       <div class="container">
+        <img src="hero_image.png" width="100%" height="100%">
+        <h3 class="pastries">We produce <span class="high-quality">high-quality pastries</span> for people<br>
+       who want only the best</h3>
+       </div>
+    <h3>
+      From humble <span class="beginnings"> beginnings...</span>
+    </h3>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis doloribus temporibus pariatur atque sint sunt. Voluptatem totam dolorem ut ad corporis maiores assumenda modi, aliquid numquam nostrum distinctio quisquam qui, voluptates adipisci dignissimos praesentium! Repellendus sapiente debitis atque ea repellat ratione unde necessitatibus explicabo tenetur omnis officiis at tempora provident, quidem autem tempore? Necessitatibus natus laboriosam vel architecto eum sapiente quae tempore ducimus, culpa reprehenderit blanditiis, quidem cum!
+    </p>
+    <h4>
+      To <span class="leaders">leaders</span> in food industry
+    </h4>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis doloribus temporibus pariatur atque sint sunt. Voluptatem totam dolorem ut ad corporis maiores assumenda modi, aliquid numquam nostrum distinctio quisquam qui, voluptates adipisci dignissimos praesentium! Repellendus sapiente debitis atque ea repellat ratione unde necessitatibus explicabo tenetur omnis officiis at tempora provident, quidem autem tempore? Necessitatibus natus laboriosam vel architecto eum sapiente quae tempore ducimus, culpa reprehenderit blanditiis, quidem cum!
+    </p>
+    <figure class="image-container">
+     <img class="fleur" src="img1.png">
+    </figure>
+    <p class="image-description">
+      Lorem ipsum dolor sit amet. Aut galisum minima et magni quia et praesentium perspiciatis eum totam molestiae ut enim dolore sed sint eius eos enim illo.
+    </p>
+    <p class="mail">
+      Are you interested in becoming a part of our Golden Grain Food Company? Opportunities for employment or setting up a franchise are<br>
+      waiting for you! Reach us by filling out the form below or send an email to office@carrers.goldengrain.com
+    </p>
+    <form>
+     <label for="Name">Name:</label><br>
+      <input type="text" placeholder="Enter name" id="Name"><br>
+     <label for="Last name">Last name:</label><br>
+      <input type="text" placeholder="Enter last name" id="Last-name"><br>
+     <label for="Mail">Mail:</label><br>
+      <input type="text" placeholder="Enter mail" id="Mail"><br>
+     <label for="Subject">Subject:</label><br>
+      <input type="text" placeholder="Enter message" id="Subject"><br>
+     <input type="Submit" value="Send" id="button">
+    </form>
+ <footer>
+  <p class="copyright">&copy 2022 Golden Grain Food Company | All rights reserved</p>
+ </footer>
+</body>
+</html>
